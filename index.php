@@ -74,11 +74,15 @@ bootstrap
         <h1>CONTACT </h1>
         <p> <b> Get in Touch</b></p>
 
+        <form action="mesazhi.php" method="post">
 
-        <input type="text" class="name" placeholder="Name">
-        <input type="email" class="email" placeholder="Email" > <br>
-        <textarea name="" id="" cols="80" rows="13" class="message" placeholder="Tell us more about your needs.."></textarea>
+        <input type="text" class="name" placeholder="Name" name="name" required>
+        <input type="email" class="email" placeholder="Email" name="email" required> <br>
+        <textarea  id="" cols="80" rows="13" class="message" name="message" placeholder="Tell us more about your needs.." required></textarea>
+        <br>
+        <button type="submit" name="submit" class="btn-send"> </button> 
 
+    </form>
     </div></section>
 </body>
-</html>
+</html> 
