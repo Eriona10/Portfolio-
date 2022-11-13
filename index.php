@@ -9,9 +9,12 @@
 </head>
 <body>
     <nav class="nav" >
+        
         <div>
             <h3>portfolio </h3>
         </div>
+        <label class="label" for="open-menu">&#9776</label>
+            <input  type="checkbox" id="open-menu">
         <div class="links">
             <ul>
                 <li><a href="#home">Home </a></li>
@@ -64,7 +67,7 @@ bootstrap
     <div class="project" >
         <h1>Project</h1>
         <div class="project-repository" > 
-
+                <a href="https://github.com/Eriona10/Portfolio-"> My Portfolio </a>
         </div>
     </div>
 
@@ -80,7 +83,7 @@ bootstrap
         <input type="email" class="email" placeholder="Email" name="email" required> <br>
         <textarea  id="" cols="80" rows="13" class="message" name="message" placeholder="Tell us more about your needs.." required></textarea>
         <br>
-        <button type="submit" name="submit" class="btn-send"> </button> 
+        <button type="submit" name="submit" class="btn-send">Send Message </button> 
 
     </form>
     </div></section>
